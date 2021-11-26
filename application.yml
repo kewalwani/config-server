@@ -3,7 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://PDC2-L-138LY4D.dir.svc.accenture.com:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: PDC2-L-138LY4D.dir.svc.accenture.com
-    prefer-ip-address: false
+    hostname: localhost
