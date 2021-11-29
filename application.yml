@@ -6,5 +6,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-feature:
-  flag: true
+feature.flag: true
